@@ -1,0 +1,52 @@
+/* Resetting some default styles for better compatibility */
+body, h1, h2, h3, p, div, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; /* Removing underline from anchor tags */
+}
+
+/* Styling for the menu bar */
+.menu-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Styling for individual menu items */
+.menu-item {
+    position: relative; /* For absolute positioning of the submenu */
+    color: #fff;
+    padding: 2px 20px;
+    cursor: none;
+}
+
+/* Styling for the submenu */
+.submenu {
+    display: none; /* Initially hide the submenu */
+    position: absolute;
+    top: 130%; /* Position below the menu item */
+    left: -500%;
+    background-color: #444;
+    min-width: 1200px;
+    border-radius: 4px;
+    z-index: 700; /* Ensure it appears above other elements */
+}
+
+/* Display the submenu when hovering over the menu item */
+.menu-item:hover .submenu {
+    display: block;
+    width: 800px;
+    height: 800px;
+    display: flex;
+}
+/* Styling for submenu items */
+.submenu a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for submenu items */
+.submenu a:hover {
+    background-color: #555;
+}

@@ -1,0 +1,149 @@
+.contact{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    gap: 20px;
+}
+  .containerr {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 550px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+ .containerr button {
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #272727;
+  }
+  .rite .ritee h1{
+    color: black;
+    float: inline-start;
+  }
+  .rite .ritee .icon a{
+    float: left;
+    border-radius: 50%;
+    padding-top: 50px;
+  }
+.rite{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 550px;
+}
+.icon{
+  margin-top: -50px;
+}
+a i{
+  color: #f4f4f4;
+  float: right;
+  background: orange;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  font-size: 22px;
+  transition: .33s ease-in-out;
+}
+a i:hover{
+  background: white;
+  color: #000;
+}
+.fas .fa-phone:hover{
+  background: green;
+  color: #f4f4f4;
+}
+/* Add your existing styles above */
+/* Media query for screens smaller than 768px (standard tablets and phones) */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .header-box {
+    padding: 10px;
+  }
+
+  header ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+  }
+
+  header ul.active {
+    display: flex;
+  }
+
+  header li {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+
+  .header-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .rite {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+/* Add more media queries for other screen sizes if needed */
+/* Add your existing styles below */

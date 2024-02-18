@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100h;
+
+}
+/*this is a header section*/
+.header-box{
+    position: fixed;
+    width: 100%;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background: black;
+    background-origin: padding-box;
+    border-bottom: 5px solid rgb(49, 46, 46);
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.font .column{
+    display: flex; 
+    padding: 17px;
+}
+.font{
+    display: flex;
+    float: right;
+}
+.font i{
+    height: 50px;
+    width: 50px;
+    color: #fafafa;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: #010918;
+    border: 2px solid orange;
+    text-align: center;
+    padding: 12px 8px; 
+    transition: .3s ease-in;
+}
+.font i:hover{
+    background-color: #fafafa;
+    color: #000;
+}
+.content h1{
+    color: white; 
+    padding: 25px;
+}
+header ul li a:hover{
+    background: black;
+    border-radius: 5px;
+    padding: 8px;
+}
+ .header-section .image img{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 400px;
+    margin-top: 130px;
+    position: relative;
+    background-blend-mode: darken;
+    z-index: -1;
+ }
+ .header-section .image h1{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    z-index: -1;
+ }
+header{
+    width: 100%;
+    height: 40px;
+    background: #272626;
+}
+header ul{
+    display: flex;
+    padding: 10px 20px;
+    margin-left: 75px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fafafa;
+    margin: 30px;
+    transition:all .3s ease;
+}
+.active:visited{
+    color: orange;
+}
+/*body of website*/
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+.uper{
+    width: 100%;
+    color: black;
+    height: 350px;
+    background: #fff;
+    text-align: center;
+    align-items: center;
+}
+.uper h1{
+    padding-top: 50px;
+    font-size: 42px;
+}
+.uper h1::after{
+    content: "";
+    width: 54px;
+    height: 4px;
+    display: block;
+    background: orange;
+    margin-left: 48%;
+    margin-top: 15px;
+    z-index: 1;
+}
+.uper P{
+    padding: 50px;
+    line-height: 25px;
+    font-weight: 530;
+}
+.write{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    text-align: center;
+    margin-left: 90px;
+}
+.center .box{
+    width: 370px;
+    height: 400px;
+    background: #f4f4f4;
+    border: 1px solid gainsboro;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background: linear-gradient(to right, black 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: -100% 0;
+    transition: background-position .3s ease;
+}
+  .box:hover {
+    background-position: 0;
+    color: #fff;
+  }
+  .box p:hover{
+    color: gray;
+  }
+.react{
+    display: flex;
+    margin-left: 250px;
+    gap: 90px;
+    margin-top: -170px;
+    margin-bottom: 50px;
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+  }
+  .text{
+    margin-top: 40px;
+  }
+.text h2{
+    margin-left: 90px;
+}
+.text p{
+    margin-left: 40px;
+}
+.ioo{
+    margin-left: 20px;
+}
+.ioo .fa-phone::before{
+    margin-left: -109px;
+}
+.ioo .fa-map-marker-alt::before{
+    margin-left: -150px;
+}
+.ioo .fa-envelope::before{
+    margin-left: -214px;
+}
+.center .box h2{
+    padding-top: 70px;
+}
+.center .box p{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+/*this is footer section*/
+.footer{
+    background:rgba(0,0,0,0.7) url(image/web\ development\ 1.webp);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.footer h1{
+    color: #fafafa;
+    text-align: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-right: 120px;
+    padding-left: 120px;
+    font-size: 42px;
+    font-weight: 500;
+}
+.footer h2{
+    color: #fafafa;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+.footer a button{
+    color: #fafafa;
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    padding: 12px 25px;
+    cursor: pointer;
+    outline: none;
+    font-size: 22px;
+    border: 2px solid #f5f5f5; 
+    margin-left: 600px;  
+    border-radius: 6px;
+    transition: .3s ease-in;
+}
+.footer a button:hover{
+    background: #fafafa;
+    color: #000;
+}
+footer{
+    width: 100%;
+    height: 530px;
+    background: #000;
+    color: #fafafa;
+}
+footer .it{
+    display: flex;
+    padding-top: 60px;
+}
+.it .it-content{
+    width: 400px;
+    margin-left: 50px;
+}
+.it-content a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+.it-content p{
+    padding-top: 10px;
+    line-height: 30px;
+    color: #fffbfb;
+}
+.it-content h1{
+    color:orange;
+    
+}
+.it-content ul{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.it-content ul li{
+    list-style: none;
+    line-height: 30px;
+    color: #575353;
+}
+.it-content ul li a{
+    color: #fffbfb;
+}
+.it-content ul li:hover{
+    text-decoration: underline;
+}
+.it-content h2::after{
+    content: '';
+    width: 65px;
+    height: 3px;
+    display: block;
+    background: orange;
+    margin-top: 5px;
+    z-index: 10;
+}
+.it-content h1::after{
+    content: '';
+    width: 65px;
+    height: 3px;
+    display: block;
+    background: orange;
+    margin-top: 4px;
+    z-index: 10;
+}
+.arrow .row{
+    display: flex;
+    margin-left:40px;
+}
+.arrow{
+    display: flex;
+    margin-left:500px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.arrow a i{
+    height: 50px;
+    width: 50px;
+    color: #fafafa;
+    border-radius: 8px;
+    font-size: 22px;
+    background-color: orange;
+    border: 2px solid orange;
+    text-align: center;
+    padding: 12px 8px; 
+}
+.arrow .row a i:hover{
+    background: white;
+    color: #000;
+}
+.cen{
+    border-top: 2px solid #f5f5f5;
+    padding: 22px;
+}
+.icon{
+    margin-top: -50px;
+    
+  }
+  a i{
+    color: #f4f4f4;
+    float: right;
+    background: orange;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-size: 22px;
+    transition: .33s ease-in-out;
+  }
+.icon  a i:hover{
+    background: white;
+    color: #000;
+  }
+
+ /* Media query for screens smaller than 768px (standard tablets and phones) */
+ @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    .header-box {
+      padding: 10px; /* Add padding to the header box */
+    }
+  
+    header ul {
+      display: none; /* Hide the navigation menu by default */
+      flex-direction: column; /* Align menu items vertically */
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+    }
+  
+    header ul.active {
+      display: flex; /* Show the menu when active */
+    }
+  
+    header li {
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #555;
+    }
+  
+    .header-section img {
+      width: 100%; /* Make the image responsive */
+      height: auto;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .footer {
+      text-align: center;
+    }
+  
+    .arrow {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+  }
+  
+  /* Add more media queries for other screen sizes if needed */
+  
+  /* Add your existing styles below */
+  
